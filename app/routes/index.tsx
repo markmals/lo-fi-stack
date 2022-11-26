@@ -1,7 +1,7 @@
-import { LinksFunction } from "@remix-run/node"
-import { Button, links as buttonLinks } from "~/components/button"
+// import { LinksFunction } from "@remix-run/node"
+// import { Button, links as buttonLinks } from "~/components/button"
 
-export const links: LinksFunction = () => [...buttonLinks()]
+// export const links: LinksFunction = () => [...buttonLinks()]
 
 export default function Index() {
     const technologies = [
@@ -44,10 +44,6 @@ export default function Index() {
 
     return (
         <div class="flex flex-col items-center">
-            <Button type="secondary" size="lg" class="my-4">
-                Example Button
-            </Button>
-
             <main class="relative min-h-screen bg-white sm:flex sm:items-center sm:justify-center">
                 <div class="relative sm:pb-16 sm:pt-8">
                     <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
