@@ -83,7 +83,7 @@ export default function Index() {
     ]
 
     return (
-        <main className="relative min-h-screen bg-white sm:flex sm:items-center sm:justify-center">
+        <main className="relative min-h-screen bg-white dark:bg-zinc-900 sm:flex sm:items-center sm:justify-center">
             <div className="relative sm:pb-16 sm:pt-8">
                 <div className="mx-auto max-w-7xl sm:px-6 lg:px-8">
                     <div className="relative shadow-xl sm:overflow-hidden sm:rounded-2xl">
@@ -102,8 +102,14 @@ export default function Index() {
                                 </span>
                             </h1>
                             <p class="mx-auto mt-6 max-w-lg text-center text-xl text-white sm:max-w-3xl">
-                                Check the README.md file for instructions on how to get this project
-                                deployed.
+                                Check the{" "}
+                                <a
+                                    class="text-teal-500 shadow-md hover:underline"
+                                    href="https://github.com/markmals/lo-fi-stack/blob/main/README.md"
+                                >
+                                    README.md
+                                </a>{" "}
+                                file for instructions on how to get this project deployed.
                             </p>
                             <a href="https://remix.run">
                                 <img
