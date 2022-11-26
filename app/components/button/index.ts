@@ -1,4 +1,4 @@
-import { LinksFunction } from "@remix-run/node"
+import type { LinksFunction } from "@remix-run/node"
 import { createStyleLink } from "~/lib/helpers"
 import styles from "../../styles/button.css"
 export { Button } from "./Button"

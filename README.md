@@ -22,7 +22,7 @@ npm init remix -- --template markmals/lo-fi-stack
 -   [x] Component stories with [Storybook](https://storybook.js.org)
 -   [x] Unit testing with [Vitest](https://vitest.dev) and [Testing Library](https://testing-library.com)
 -   [x] Code formatting with [Prettier](https://prettier.io)
--   [ ] Linting with [ESLint](https://eslint.org)
+-   [x] Linting with [ESLint](https://eslint.org)
 -   [x] Static types with [TypeScript](https://typescriptlang.org)
 -   [x] [Flat routing convention](https://github.com/kiliman/remix-flat-routes)
 -   [x] [Type-safe routing](https://github.com/yesmeck/remix-routes)

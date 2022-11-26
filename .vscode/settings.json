@@ -2,7 +2,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
-    "editor.codeActionsOnSave": ["source.addMissingImports"],
+    "editor.codeActionsOnSave": ["source.addMissingImports", "source.fixAll"],
 
     "[markdown]": {
         // Prettier doesn't format markdown the way I like it,

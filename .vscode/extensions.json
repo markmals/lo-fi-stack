@@ -2,6 +2,7 @@
     "recommendations": [
         "antfu.unocss",
         "christian-kohler.npm-intellisense",
+        "dbaeumer.vscode-eslint",
         "esbenp.prettier-vscode",
         "unifiedjs.vscode-mdx",
         "ZixuanChen.vitest-explorer"

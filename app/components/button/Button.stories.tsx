@@ -1,4 +1,4 @@
-import { Meta, Story } from "@storybook/preact"
+import type { Meta, Story } from "@storybook/preact"
 import "../../../styles/button.css"
 import { Button } from "./Button"
 

@@ -1,4 +1,4 @@
-import { RenderableProps } from "preact"
+import type { RenderableProps } from "preact"
 
 export namespace Button {
     export interface Props extends RenderableProps<any> {

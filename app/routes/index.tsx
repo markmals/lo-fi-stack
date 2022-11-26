@@ -46,6 +46,16 @@ export default function Index() {
             href: "https://storybook.js.org",
         },
         {
+            src: "prettier.svg",
+            alt: "Prettier",
+            href: "https://prettier.io",
+        },
+        {
+            src: "eslint.svg",
+            alt: "ESLint",
+            href: "https://eslint.org",
+        },
+        {
             src: "vitest.svg",
             alt: "Vitest",
             href: "https://vitest.dev",
@@ -55,16 +65,6 @@ export default function Index() {
             alt: "Testing Library",
             href: "https://testing-library.com",
         },
-        {
-            src: "prettier.svg",
-            alt: "Prettier",
-            href: "https://prettier.io",
-        },
-        // {
-        //     src: "eslint.svg",
-        //     alt: "ESLint",
-        //     href: "https://eslint.org",
-        // },
         {
             src: "npm.svg",
             alt: "npm",
@@ -123,6 +123,7 @@ export default function Index() {
                                 href={img.href}
                                 target="_blank"
                                 class="flex h-16 w-32 justify-center p-1 grayscale transition hover:grayscale-0 focus:grayscale-0"
+                                rel="noreferrer"
                             >
                                 <img alt={img.alt} src={img.src} class="object-contain" />
                             </a>
