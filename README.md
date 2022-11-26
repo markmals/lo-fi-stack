@@ -1,6 +1,6 @@
 # Remix Lo-Fi Stack
 
-![The Remix Lo-Fi Stack](https://user-images.githubusercontent.com/39869007/204049436-9de26afd-ba73-49ad-a87a-caeb75bdb50e.png)
+![The Remix Lo-Fi Stack](https://user-images.githubusercontent.com/39869007/204083344-250fd2f5-24e5-4b51-aa0a-b35d589c1b90.png)
 
 Learn more about [Remix Stacks](https://remix.run/stacks).
 
