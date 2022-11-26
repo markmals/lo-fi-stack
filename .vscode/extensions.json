@@ -1,0 +1,9 @@
+{
+    "recommendations": [
+        "antfu.unocss",
+        "christian-kohler.npm-intellisense",
+        "esbenp.prettier-vscode",
+        "unifiedjs.vscode-mdx",
+        "ZixuanChen.vitest-explorer"
+    ]
+}

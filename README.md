@@ -24,7 +24,7 @@ npx create-remix@latest --template markmals/lo-fi-stack
 - [ ] Linting with [ESLint](https://eslint.org)
 - [x] Static types with [TypeScript](https://typescriptlang.org)
 - [x] [Flat routing convention](https://github.com/kiliman/remix-flat-routes)
-- [ ] Reccomended VS Code extensions
+- [x] Reccomended VS Code extensions
 
 Not a fan of bits of the stack? Fork it, change it, and use `npx create-remix --template your/repo`! Make it your own.
 
