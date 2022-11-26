@@ -7,11 +7,13 @@
         "test": "vitest",
         "format": "prettier --write .",
         "typecheck": "tsc",
-        "build": "run-s build:unocss build:remix",
+        "build": "run-s build:css build:routes build:remix",
         "start": "remix-serve build",
         "deploy": "fly deploy --remote-only",
         "dev:remix": "remix dev",
         "build:remix": "remix build",
+        "dev:routes": "remix-routes -w",
+        "build:routes": "remix-routes",
         "dev:css": "postcss styles --base styles --dir app/styles -w",
         "build:css": "postcss styles --base styles --dir app/styles --env production",
         "storybook:dev": "start-storybook -p 6006",
@@ -28,7 +30,8 @@
         "preact": "^10.11.0",
         "preact-render-to-string": "^5.2.4",
         "react": "npm:@preact/compat",
-        "react-dom": "npm:@preact/compat"
+        "react-dom": "npm:@preact/compat",
+        "remix-routes": "^1.0.0"
     },
     "devDependencies": {
         "@preact/preset-vite": "^2.4.0",

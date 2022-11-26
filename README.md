@@ -25,6 +25,7 @@ npm init remix -- --template markmals/lo-fi-stack
 -   [ ] Linting with [ESLint](https://eslint.org)
 -   [x] Static types with [TypeScript](https://typescriptlang.org)
 -   [x] [Flat routing convention](https://github.com/kiliman/remix-flat-routes)
+-   [x] [Type-safe routing](https://github.com/yesmeck/remix-routes)
 -   [x] Reccomended [Visual Studio Code extensions](https://code.visualstudio.com/docs/editor/extension-marketplace#_workspace-recommended-extensions)
 
 Not a fan of bits of the stack? Fork it, change it, and use `npm init remix -- --template your/repo`! Make it your own.
