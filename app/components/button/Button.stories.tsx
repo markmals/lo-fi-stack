@@ -2,7 +2,16 @@ import { Meta, Story } from "@storybook/preact"
 import "../../../styles/button.css"
 import { Button } from "./Button"
 
-export default { component: Button, title: "Button" } as Meta<typeof Button>
+export default {
+    component: Button,
+    title: "Button",
+    // parameters: {
+    //     design: {
+    //         type: "figspec",
+    //         url: "",
+    //     },
+    // },
+} as Meta<typeof Button>
 
 const Template: Story<typeof Button> = args => <Button {...args} />
 

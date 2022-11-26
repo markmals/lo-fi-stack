@@ -16,47 +16,67 @@ export default function Index() {
             href: "https://tailwindcss.com",
         },
         {
-            src: "https://postcss.org/assets/postcss.83d93145.svg",
+            src: "postcss.svg",
             alt: "PostCSS",
             href: "https://postcss.org/",
         },
-        {
-            src: "firebase.svg",
-            alt: "Firebase",
-            href: "https://firebase.google.com/",
-        },
+        // {
+        //     src: "fly-io.svg",
+        //     alt: "Fly.io",
+        //     href: "https://fly.io",
+        // },
+        // {
+        //     src: "firebase.svg",
+        //     alt: "Firebase",
+        //     href: "https://firebase.google.com/",
+        // },
+        // {
+        //     src: "headlessui.svg",
+        //     alt: "Headless UI",
+        //     href: "https://headlessui.com",
+        // },
+        // {
+        //     src: "framer-motion.webp",
+        //     alt: "Framer Motion",
+        //     href: "https://www.framer.com/motion",
+        // },
         {
             src: "storybook.svg",
             alt: "Storybook",
-            href: "https://storybook.js.org/",
+            href: "https://storybook.js.org",
         },
         {
-            src: "https://user-images.githubusercontent.com/1500684/157772447-00fccdce-9d12-46a3-8bb4-fac612cdc949.svg",
+            src: "vitest.svg",
             alt: "Vitest",
             href: "https://vitest.dev",
         },
         {
-            src: "https://user-images.githubusercontent.com/1500684/157772662-92b0dd3a-453f-4d18-b8be-9fa6efde52cf.png",
+            src: "testing-library.png",
             alt: "Testing Library",
             href: "https://testing-library.com",
         },
         {
-            src: "https://user-images.githubusercontent.com/1500684/157772934-ce0a943d-e9d0-40f8-97f3-f464c0811643.svg",
+            src: "prettier.svg",
             alt: "Prettier",
             href: "https://prettier.io",
         },
+        // {
+        //     src: "eslint.svg",
+        //     alt: "ESLint",
+        //     href: "https://eslint.org",
+        // },
         {
             src: "npm.svg",
             alt: "npm",
-            href: "npmjs.com",
+            href: "https://npmjs.com",
         },
         {
-            src: "https://user-images.githubusercontent.com/1500684/157773063-20a0ed64-b9f8-4e0b-9d1e-0b65a3d4a6db.svg",
+            src: "typescript.svg",
             alt: "TypeScript",
             href: "https://typescriptlang.org",
         },
         {
-            src: "https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg",
+            src: "vscode.svg",
             alt: "Visual Studio Code",
             href: "https://code.visualstudio.com",
         },
@@ -101,6 +121,7 @@ export default function Index() {
                             <a
                                 key={img.href}
                                 href={img.href}
+                                target="_blank"
                                 class="flex h-16 w-32 justify-center p-1 grayscale transition hover:grayscale-0 focus:grayscale-0"
                             >
                                 <img alt={img.alt} src={img.src} class="object-contain" />

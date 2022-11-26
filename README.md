@@ -19,7 +19,7 @@ npm init remix -- --template markmals/lo-fi-stack
 -   [ ] Firebase Firestore
 -   [ ] Firebase Authentication
 -   [ ] Deploy to Fly.io
--   [x] Component library stories with [Storybook](https://storybook.js.org)
+-   [x] Component stories with [Storybook](https://storybook.js.org)
 -   [x] Unit testing with [Vitest](https://vitest.dev) and [Testing Library](https://testing-library.com)
 -   [x] Code formatting with [Prettier](https://prettier.io)
 -   [ ] Linting with [ESLint](https://eslint.org)
