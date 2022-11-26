@@ -20,8 +20,8 @@
         "build:css": "postcss styles --base styles --dir app/styles --env production",
         "storybook:dev": "start-storybook -p 6006",
         "storybook:build": "build-storybook",
-        "static:build": "wget -r -nH -i static-build-urls.txt -P static",
-        "static:serve": "serve static"
+        "static:build": "wget -r -nH -i static-build-urls.txt -P docs",
+        "static:serve": "serve docs"
     },
     "resolutions": {
         "react": "npm:@preact/compat",
