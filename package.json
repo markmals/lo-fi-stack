@@ -9,6 +9,7 @@
         "typecheck": "tsc",
         "build": "run-s build:unocss build:remix",
         "start": "remix-serve build",
+        "deploy": "fly deploy --remote-only",
         "dev:remix": "remix dev",
         "build:remix": "remix build",
         "dev:css": "postcss styles --base styles --dir app/styles -w",

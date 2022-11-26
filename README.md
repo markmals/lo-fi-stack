@@ -18,7 +18,7 @@ npm init remix -- --template markmals/lo-fi-stack
 -   [ ] Optionally add UI libraries, such as Headless UI, TanStack Table, and Framer Motion
 -   [ ] Firebase Firestore
 -   [ ] Firebase Authentication
--   [ ] Deploy to Fly.io
+-   [x] Deploy to Fly.io
 -   [x] Component stories with [Storybook](https://storybook.js.org)
 -   [x] Unit testing with [Vitest](https://vitest.dev) and [Testing Library](https://testing-library.com)
 -   [x] Code formatting with [Prettier](https://prettier.io)
@@ -31,23 +31,11 @@ Not a fan of bits of the stack? Fork it, change it, and use `npm init remix -- -
 
 ## Development
 
--   This step only applies if you've opted out of having the CLI install dependencies for you:
+From your terminal:
 
-    ```sh
-    npx remix init
-    ```
-
--   Validate the app has been set up properly (optional):
-
-    ```sh
-    npm run validate
-    ```
-
--   Start dev server:
-
-    ```sh
-    npm run dev
-    ```
+```sh
+npm run dev
+```
 
 This starts your app in development mode, rebuilding assets on file changes.
 
@@ -68,3 +56,33 @@ This project uses ESLint for linting. That is configured in `.eslintrc.js`.
 ### Formatting
 
 We use [Prettier](https://prettier.io/) for auto-formatting in this project. It's recommended to install an editor plugin (like the [VSCode Prettier plugin](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)) to get auto-formatting on save. There's also a `npm run format` script you can run to format all files in the project.
+
+## Deploying
+
+### Fly Setup
+
+1. [Install `flyctl`](https://fly.io/docs/getting-started/installing-flyctl/)
+
+2. Sign up and log in to Fly
+
+```sh
+flyctl auth signup
+```
+
+3. Setup Fly. It might ask if you want to deploy, say no since you haven't built the app yet.
+
+```sh
+flyctl launch
+```
+
+### Deployment
+
+Once you've followed the setup instructions, all you need to do is run this:
+
+```sh
+npm run deploy
+```
+
+You can run `flyctl info` to get the url and ip address of your server.
+
+Check out the [fly docs](https://fly.io/docs/languages-and-frameworks/remix) for more information.

@@ -20,11 +20,11 @@ export default function Index() {
             alt: "PostCSS",
             href: "https://postcss.org/",
         },
-        // {
-        //     src: "fly-io.svg",
-        //     alt: "Fly.io",
-        //     href: "https://fly.io",
-        // },
+        {
+            src: "fly-io.svg",
+            alt: "Fly.io",
+            href: "https://fly.io",
+        },
         // {
         //     src: "firebase.svg",
         //     alt: "Firebase",
