@@ -13,7 +13,7 @@ npm init remix -- --template markmals/lo-fi-stack
 -   [x] [Preact](https://preactjs.com) UI runtime
 -   [x] Atomic styling with [Tailwind CSS](https://tailwindcss.com/)
     -   [x] Support for [`theme()`, `screen()`, `@apply`, and `@layer` functions and directives](https://tailwindcss.com/docs/functions-and-directives)
--   [x] Style processing with PostCSS
+-   [x] Style processing with [PostCSS](https://postcss.org/)
     -   [x] Default support for [build-time imports](https://github.com/postcss/postcss-import), [nesting](https://tailwindcss.com/docs/using-with-preprocessors#nesting), and [autoprefixer](https://github.com/postcss/autoprefixer)
 -   [ ] Optionally add UI libraries, such as Headless UI, TanStack Table, and Framer Motion
 -   [ ] Firebase Firestore
