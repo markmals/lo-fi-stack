@@ -10,17 +10,17 @@ npx create-remix@latest --template markmals/lo-fi-stack
 
 ## What's in the stack
 
-- [x] [Preact]() UI runtime
+- [x] [Preact](https://preactjs.com) UI runtime
 - [x] Styling with [UnoCSS](https://github.com/unocss/unocss)
-    - [ ] Support for [`@apply` and `theme()` directives](https://github.com/unocss/unocss/tree/main/packages/transformer-directives)
+- [x] Support for [`@apply` and `theme()` directives](https://github.com/unocss/unocss/tree/main/packages/transformer-directives)
 - [ ] PostCSS support for build-time imports, nesting, and autoprefixer
 - [ ] UI helpers from Headless UI and Framer Motion
-- [ ] Markdown helpers
 - [ ] Firebase Firestore
 - [ ] Firebase Authentication
 - [ ] Deploy to Fly.io
-- [ ] Unit testing with [Vitest](https://vitest.dev) and [Testing Library](https://testing-library.com)
-- [ ] Code formatting with [Prettier](https://prettier.io)
+- [x] Component library stories with [Storybook](https://storybook.js.org)
+- [x] Unit testing with [Vitest](https://vitest.dev) and [Testing Library](https://testing-library.com)
+- [x] Code formatting with [Prettier](https://prettier.io)
 - [ ] Linting with [ESLint](https://eslint.org)
 - [x] Static types with [TypeScript](https://typescriptlang.org)
 - [x] [Flat routing convention](https://github.com/kiliman/remix-flat-routes)
