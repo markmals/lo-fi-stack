@@ -42,3 +42,24 @@ export function createStory<Component extends PreactComponent>(
         return clone
     }
 }
+
+// FIXME: None of these helpers (^) work when used in a story:
+
+// export default defineMeta({
+//     component: Button,
+//     title: "Button",
+// })
+
+// const Template = createStory<typeof Button>(args => <Button {...args} />)
+
+// export const Primary = createStory(Template, {
+//     children: "Primary Button",
+//     type: "primary",
+//     size: "md",
+// })
+
+// export const Secondary = createStory(Template, {
+//     children: "Secondary Button",
+//     type: "secondary",
+//     size: "md",
+// })

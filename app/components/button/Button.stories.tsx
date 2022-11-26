@@ -1,5 +1,6 @@
 import { Meta, Story } from "@storybook/preact"
 import { Button } from "./Button"
+import "./button.css"
 
 export default { component: Button, title: "Button" } as Meta<typeof Button>
 
