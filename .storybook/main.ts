@@ -1,5 +1,4 @@
-import unocss from "unocss/vite"
-import { defineConfig, mergeViteConfig } from "./storybook-helpers"
+import { defineConfig } from "./storybook-helpers"
 
 export default defineConfig({
     core: { builder: "@storybook/builder-vite", disableTelemetry: true },
@@ -10,5 +9,4 @@ export default defineConfig({
         "@storybook/addon-essentials",
         "@storybook/addon-interactions",
     ],
-    viteFinal: config => mergeViteConfig(config, { plugins: [unocss()] }),
 })

@@ -11,9 +11,14 @@ export default function Index() {
             href: "https://preactjs.com/",
         },
         {
-            src: "https://raw.githubusercontent.com/unocss/unocss/main/playground/public/icon-gray.svg",
-            alt: "UnoCSS",
-            href: "https://github.com/unocss/unocss",
+            src: "tailwind.svg",
+            alt: "Tailwind",
+            href: "https://tailwindcss.com",
+        },
+        {
+            src: "https://postcss.org/assets/postcss.83d93145.svg",
+            alt: "PostCSS",
+            href: "https://postcss.org/",
         },
         {
             src: "firebase.svg",
@@ -41,9 +46,19 @@ export default function Index() {
             href: "https://prettier.io",
         },
         {
+            src: "npm.svg",
+            alt: "npm",
+            href: "npmjs.com",
+        },
+        {
             src: "https://user-images.githubusercontent.com/1500684/157773063-20a0ed64-b9f8-4e0b-9d1e-0b65a3d4a6db.svg",
             alt: "TypeScript",
             href: "https://typescriptlang.org",
+        },
+        {
+            src: "https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg",
+            alt: "Visual Studio Code",
+            href: "https://code.visualstudio.com",
         },
     ]
 

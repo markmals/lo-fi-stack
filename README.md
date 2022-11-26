@@ -5,48 +5,49 @@
 Learn more about [Remix Stacks](https://remix.run/stacks).
 
 ```
-npx create-remix@latest --template markmals/lo-fi-stack
+npm init remix -- --template markmals/lo-fi-stack
 ```
 
 ## What's in the stack
 
-- [x] [Preact](https://preactjs.com) UI runtime
-- [x] Styling with [UnoCSS](https://github.com/unocss/unocss)
-- [x] Support for [`@apply` and `theme()` directives](https://github.com/unocss/unocss/tree/main/packages/transformer-directives)
-- [ ] PostCSS support for build-time imports, nesting, and autoprefixer
-- [ ] UI helpers from Headless UI and Framer Motion
-- [ ] Firebase Firestore
-- [ ] Firebase Authentication
-- [ ] Deploy to Fly.io
-- [x] Component library stories with [Storybook](https://storybook.js.org)
-- [x] Unit testing with [Vitest](https://vitest.dev) and [Testing Library](https://testing-library.com)
-- [x] Code formatting with [Prettier](https://prettier.io)
-- [ ] Linting with [ESLint](https://eslint.org)
-- [x] Static types with [TypeScript](https://typescriptlang.org)
-- [x] [Flat routing convention](https://github.com/kiliman/remix-flat-routes)
-- [x] Reccomended VS Code extensions
+-   [x] [Preact](https://preactjs.com) UI runtime
+-   [x] Atomic styling with [Tailwind CSS](https://tailwindcss.com/)
+    -   [x] Support for [`theme()`, `screen()`, `@apply`, and `@layer` functions and directives](https://tailwindcss.com/docs/functions-and-directives)
+-   [x] Style processing with PostCSS
+    -   [x] Default support for [build-time imports](https://github.com/postcss/postcss-import), [nesting](https://tailwindcss.com/docs/using-with-preprocessors#nesting), and [autoprefixer](https://github.com/postcss/autoprefixer)
+-   [ ] Optionally add UI libraries, such as Headless UI, TanStack Table, and Framer Motion
+-   [ ] Firebase Firestore
+-   [ ] Firebase Authentication
+-   [ ] Deploy to Fly.io
+-   [x] Component library stories with [Storybook](https://storybook.js.org)
+-   [x] Unit testing with [Vitest](https://vitest.dev) and [Testing Library](https://testing-library.com)
+-   [x] Code formatting with [Prettier](https://prettier.io)
+-   [ ] Linting with [ESLint](https://eslint.org)
+-   [x] Static types with [TypeScript](https://typescriptlang.org)
+-   [x] [Flat routing convention](https://github.com/kiliman/remix-flat-routes)
+-   [x] Reccomended VS Code extensions
 
-Not a fan of bits of the stack? Fork it, change it, and use `npx create-remix --template your/repo`! Make it your own.
+Not a fan of bits of the stack? Fork it, change it, and use `npm init remix -- --template your/repo`! Make it your own.
 
 ## Development
 
-- This step only applies if you've opted out of having the CLI install dependencies for you:
+-   This step only applies if you've opted out of having the CLI install dependencies for you:
 
-   ```sh
-   npx remix init
-   ```
+    ```sh
+    npx remix init
+    ```
 
-- Validate the app has been set up properly (optional):
+-   Validate the app has been set up properly (optional):
 
-  ```sh
-  npm run validate
-  ```
+    ```sh
+    npm run validate
+    ```
 
-- Start dev server:
+-   Start dev server:
 
-  ```sh
-  npm run dev
-  ```
+    ```sh
+    npm run dev
+    ```
 
 This starts your app in development mode, rebuilding assets on file changes.
 

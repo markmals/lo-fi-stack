@@ -5,8 +5,14 @@
     "editor.codeActionsOnSave": ["source.addMissingImports"],
 
     "[markdown]": {
-        "editor.defaultFormatter": null,
-        "editor.formatOnSave": false,
+        // Prettier doesn't format markdown the way I like it,
+        // and it doesn't have any options for configuring,
+        // but I still need my markdown files auto-formatted,
+        // so until I find a better markdown formatter,
+        // I'll leave this enabled.
+        //
+        // "editor.defaultFormatter": null,
+        // "editor.formatOnSave": false,
         "editor.wordWrap": "on"
     },
     "[markdown-react]": {

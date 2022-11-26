@@ -1,14 +1,13 @@
 import type { LinksFunction, MetaFunction } from "@remix-run/node"
 import { Links, LiveReload, Meta, Outlet, Scripts, ScrollRestoration } from "@remix-run/react"
-import reset from "@unocss/reset/tailwind.css"
 import { createStyleLink } from "./lib/helpers"
-import uno from "./styles/uno.css"
+import tailwind from "./styles/tailwind.css"
 
-export const links: LinksFunction = () => [createStyleLink(uno), createStyleLink(reset)]
+export const links: LinksFunction = () => [createStyleLink(tailwind)]
 
 export const meta: MetaFunction = () => ({
     charset: "utf-8",
-    title: "New Premix App",
+    title: "Remix Lo-Fi Stack",
     viewport: "width=device-width,initial-scale=1",
 })
 
