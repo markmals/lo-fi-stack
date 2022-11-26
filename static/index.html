@@ -1,0 +1,64 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8" /><title>Remix Lo-Fi Stack</title><meta name="viewport" content="width=device-width,initial-scale=1" /><link rel="stylesheet" href="/build/_assets/tailwind-DXOYATQN.css" /></head><body><main class="relative min-h-screen bg-white dark:bg-zinc-900 sm:flex sm:items-center sm:justify-center"><div class="relative sm:pb-16 sm:pt-8"><div class="mx-auto max-w-7xl sm:px-6 lg:px-8"><div class="relative shadow-xl sm:overflow-hidden sm:rounded-2xl"><div class="absolute inset-0"><img class="h-full w-full object-cover" src="https://i.kym-cdn.com/photos/images/original/001/760/307/555.jpg" alt="LoFi Girl" /><div class="absolute inset-0 bg-[color:rgba(20,184,166,0.65)] mix-blend-multiply"></div></div><div class="relative px-4 pt-16 pb-8 sm:px-6 sm:pt-24 sm:pb-14 lg:px-8 lg:pb-20 lg:pt-32"><h1 class="text-center text-6xl font-extrabold tracking-tight sm:text-8xl lg:text-9xl"><span class="block uppercase text-teal-500 drop-shadow-md">Lo-Fi Stack</span></h1><p class="mx-auto mt-6 max-w-lg text-center text-xl text-white sm:max-w-3xl">Check the <a class="text-teal-500 shadow-md hover:underline" href="https://github.com/markmals/lo-fi-stack/blob/main/README.md">README.md</a> file for instructions on how to get this project deployed.</p><a href="https://remix.run"><img src="https://user-images.githubusercontent.com/1500684/158298926-e45dafff-3544-4b69-96d6-d3bcc33fc76a.svg" alt="Remix" class="mx-auto mt-16 w-full max-w-[12rem] md:max-w-[16rem]" /></a></div></div></div><div class="mx-auto max-w-7xl py-2 px-4 sm:px-6 lg:px-8"><div class="mt-6 flex flex-wrap justify-center gap-8"><a href="https://preactjs.com/" target="_blank" class="flex h-16 w-32 justify-center p-1 grayscale transition hover:grayscale-0 focus:grayscale-0" rel="noreferrer"><img alt="Preact" src="preact.svg" class="object-contain" /></a><a href="https://tailwindcss.com" target="_blank" class="flex h-16 w-32 justify-center p-1 grayscale transition hover:grayscale-0 focus:grayscale-0" rel="noreferrer"><img alt="Tailwind" src="tailwind.svg" class="object-contain" /></a><a href="https://postcss.org/" target="_blank" class="flex h-16 w-32 justify-center p-1 grayscale transition hover:grayscale-0 focus:grayscale-0" rel="noreferrer"><img alt="PostCSS" src="postcss.svg" class="object-contain" /></a><a href="https://fly.io" target="_blank" class="flex h-16 w-32 justify-center p-1 grayscale transition hover:grayscale-0 focus:grayscale-0" rel="noreferrer"><img alt="Fly.io" src="fly-io.svg" class="object-contain" /></a><a href="https://storybook.js.org" target="_blank" class="flex h-16 w-32 justify-center p-1 grayscale transition hover:grayscale-0 focus:grayscale-0" rel="noreferrer"><img alt="Storybook" src="storybook.svg" class="object-contain" /></a><a href="https://prettier.io" target="_blank" class="flex h-16 w-32 justify-center p-1 grayscale transition hover:grayscale-0 focus:grayscale-0" rel="noreferrer"><img alt="Prettier" src="prettier.svg" class="object-contain" /></a><a href="https://eslint.org" target="_blank" class="flex h-16 w-32 justify-center p-1 grayscale transition hover:grayscale-0 focus:grayscale-0" rel="noreferrer"><img alt="ESLint" src="eslint.svg" class="object-contain" /></a><a href="https://vitest.dev" target="_blank" class="flex h-16 w-32 justify-center p-1 grayscale transition hover:grayscale-0 focus:grayscale-0" rel="noreferrer"><img alt="Vitest" src="vitest.svg" class="object-contain" /></a><a href="https://testing-library.com" target="_blank" class="flex h-16 w-32 justify-center p-1 grayscale transition hover:grayscale-0 focus:grayscale-0" rel="noreferrer"><img alt="Testing Library" src="testing-library.png" class="object-contain" /></a><a href="https://npmjs.com" target="_blank" class="flex h-16 w-32 justify-center p-1 grayscale transition hover:grayscale-0 focus:grayscale-0" rel="noreferrer"><img alt="npm" src="npm.svg" class="object-contain" /></a><a href="https://typescriptlang.org" target="_blank" class="flex h-16 w-32 justify-center p-1 grayscale transition hover:grayscale-0 focus:grayscale-0" rel="noreferrer"><img alt="TypeScript" src="typescript.svg" class="object-contain" /></a><a href="https://code.visualstudio.com" target="_blank" class="flex h-16 w-32 justify-center p-1 grayscale transition hover:grayscale-0 focus:grayscale-0" rel="noreferrer"><img alt="Visual Studio Code" src="vscode.svg" class="object-contain" /></a></div></div></div></main><script suppressHydrationWarning>(STORAGE_KEY => {
+    if (!window.history.state || !window.history.state.key) {
+      let key = Math.random().toString(32).slice(2);
+      window.history.replaceState({
+        key
+      }, "");
+    }
+
+    try {
+      let positions = JSON.parse(sessionStorage.getItem(STORAGE_KEY) || "{}");
+      let storedY = positions[window.history.state.key];
+
+      if (typeof storedY === "number") {
+        window.scrollTo(0, storedY);
+      }
+    } catch (error) {
+      console.error(error);
+      sessionStorage.removeItem(STORAGE_KEY);
+    }
+  })("positions")</script><link rel="modulepreload" href="/build/manifest-4C56DD4D.js" /><link rel="modulepreload" href="/build/entry.client-2K6RB73I.js" /><link rel="modulepreload" href="/build/_shared/chunk-WAKR6VHE.js" /><link rel="modulepreload" href="/build/_shared/chunk-463ARVA7.js" /><link rel="modulepreload" href="/build/root-542XRUMO.js" /><link rel="modulepreload" href="/build/routes/index-5NWGPO4Q.js" /><script suppressHydrationWarning>window.__remixContext = {"appState":{"trackBoundaries":true,"trackCatchBoundaries":true,"catchBoundaryRouteId":null,"renderBoundaryRouteId":null,"loaderBoundaryRouteId":null},"matches":[{"params":{},"pathname":"/","route":{"id":"root","path":"","module":"/build/root-542XRUMO.js","hasAction":false,"hasLoader":false,"hasCatchBoundary":false,"hasErrorBoundary":false}},{"params":{},"pathname":"/","route":{"id":"routes/index","parentId":"root","index":true,"module":"/build/routes/index-5NWGPO4Q.js","hasAction":false,"hasLoader":false,"hasCatchBoundary":false,"hasErrorBoundary":false}}],"routeData":{}};</script><script type="module" async>import "/build/manifest-4C56DD4D.js";
+import * as route0 from "/build/root-542XRUMO.js";
+import "/build/manifest-4C56DD4D.js";
+import * as route1 from "/build/routes/index-5NWGPO4Q.js";
+window.__remixRouteModules = {"root":route0,"routes/index":route1};
+
+import("/build/entry.client-2K6RB73I.js");</script><script suppressHydrationWarning>
+                function remixLiveReloadConnect(config) {
+                  let protocol = location.protocol === "https:" ? "wss:" : "ws:";
+                  let host = location.hostname;
+                  let socketPath = protocol + "//" + host + ":" + 8002 + "/socket";
+
+                  let ws = new WebSocket(socketPath);
+                  ws.onmessage = (message) => {
+                    let event = JSON.parse(message.data);
+                    if (event.type === "LOG") {
+                      console.log(event.message);
+                    }
+                    if (event.type === "RELOAD") {
+                      console.log("💿 Reloading window ...");
+                      window.location.reload();
+                    }
+                  };
+                  ws.onopen = () => {
+                    if (config && typeof config.onOpen === "function") {
+                      config.onOpen();
+                    }
+                  };
+                  ws.onclose = (error) => {
+                    console.log("Remix dev asset server web socket closed. Reconnecting...");
+                    setTimeout(
+                      () =>
+                        remixLiveReloadConnect({
+                          onOpen: () => window.location.reload(),
+                        }),
+                      1000
+                    );
+                  };
+                  ws.onerror = (error) => {
+                    console.log("Remix dev asset server web socket error:");
+                    console.error(error);
+                  };
+                }
+                remixLiveReloadConnect();
+              </script></body></html>
