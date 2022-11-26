@@ -1,8 +1,10 @@
 import type { LinksFunction, MetaFunction } from "@remix-run/node"
 import { Links, LiveReload, Meta, Outlet, Scripts, ScrollRestoration } from "@remix-run/react"
-import styles from "./styles/uno.css"
+import reset from "@unocss/reset/tailwind.css"
+import { createStyleLink } from "./lib/helpers"
+import uno from "./styles/uno.css"
 
-export const links: LinksFunction = () => [{ rel: "stylesheet", href: styles }]
+export const links: LinksFunction = () => [createStyleLink(uno), createStyleLink(reset)]
 
 export const meta: MetaFunction = () => ({
     charset: "utf-8",
