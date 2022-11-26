@@ -1,0 +1,53 @@
+{
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": ["source.addMissingImports"],
+
+    "[markdown]": {
+        "editor.defaultFormatter": null,
+        "editor.formatOnSave": false,
+        "editor.wordWrap": "on"
+    },
+    "[markdown-react]": {
+        "editor.wordWrap": "on"
+    },
+
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "typescript.preferences.importModuleSpecifierEnding": "auto",
+    // "typescript.inlayHints.parameterNames.enabled": "all",
+    // "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+    // "typescript.inlayHints.parameterTypes.enabled": true,
+    // "typescript.inlayHints.propertyDeclarationTypes.enabled":true,
+    // "typescript.inlayHints.variableTypes.enabled":true,
+
+    "files.exclude": {
+        "**/.git": true,
+        "**/.gitignore": false,
+        "**/.DS_Store": true,
+        "**/node_modules": true,
+        "**/build": true,
+        "**/public/build": true,
+        "**/.cache": true,
+        "**/.env": false
+    },
+
+    "todohighlight.keywords": [
+        "MARK:",
+        {
+            "text": "FIXME:",
+            "backgroundColor": "#F14848"
+        },
+        {
+            "text": "TODO:",
+            "backgroundColor": "#3593FF"
+        }
+    ],
+    "todohighlight.defaultStyle": {
+        "backgroundColor": "#434B54",
+        "color": "#fff",
+        "borderRadius": "2px"
+    },
+
+    "vitest.enable": true
+}
