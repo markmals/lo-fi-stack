@@ -1,6 +1,6 @@
 {
     "recommendations": [
-        "antfu.unocss",
+        "bradlc.vscode-tailwindcss",
         "christian-kohler.npm-intellisense",
         "dbaeumer.vscode-eslint",
         "esbenp.prettier-vscode",
