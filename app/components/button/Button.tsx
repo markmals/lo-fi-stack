@@ -1,20 +1,25 @@
-import type { RenderableProps } from "preact"
+import type { JSXInternal } from "preact/src/jsx"
 
 export namespace Button {
-    export interface Props extends RenderableProps<any> {
-        type?: "primary" | "secondary"
-        size?: "sm" | "md" | "lg"
+    export interface Props extends JSXInternal.HTMLAttributes<HTMLButtonElement> {
+        buttonStyle?: "primary" | "secondary"
+        buttonSize?: "sm" | "md" | "lg"
     }
 }
 
-export function Button({ type = "primary", size = "md", children, ...props }: Button.Props) {
+export function Button({
+    buttonStyle = "primary",
+    buttonSize = "md",
+    children,
+    ...props
+}: Button.Props) {
     return (
         <button
             type="button"
             data-btn
-            data-btn-type={type}
-            data-btn-tint={type === "secondary" ? "teal" : undefined}
-            data-btn-size={size}
+            data-btn-style={buttonStyle}
+            data-btn-tint={buttonStyle === "secondary" ? "teal" : undefined}
+            data-btn-size={buttonSize}
             {...props}
         >
             {children}

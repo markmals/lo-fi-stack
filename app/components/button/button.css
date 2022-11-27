@@ -2,7 +2,7 @@
     @apply inline-flex cursor-pointer items-center rounded-md font-medium;
 }
 
-[data-btn-type="primary"] {
+[data-btn-style="primary"] {
     @apply border border-transparent bg-teal-600 text-white shadow-sm;
 
     &:focus {
@@ -14,7 +14,7 @@
     }
 }
 
-[data-btn-type="secondary"] {
+[data-btn-style="secondary"] {
     @apply border border-gray-300 bg-white text-gray-700 shadow-sm;
 
     &:hover {
