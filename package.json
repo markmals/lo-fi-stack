@@ -20,7 +20,7 @@
         "build:css": "postcss styles --base styles --dir app/styles --env production",
         "storybook:dev": "start-storybook -p 6006",
         "storybook:build": "build-storybook",
-        "static:build": "wget -r -k -nH -i static-build-urls.txt -P docs",
+        "static:build": "wget -r -k -nH -i static-build-urls.txt -P docs; touch docs/.nojekyll",
         "static:serve": "serve docs"
     },
     "resolutions": {
