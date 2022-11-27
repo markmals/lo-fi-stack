@@ -15,7 +15,7 @@ export default function App() {
     return (
         <html lang="en">
             <head>
-                <base href="https://markmals.github.io/lo-fi-stack/" />
+                <base href="https://markmals.github.io/lo-fi-stack" />
                 <Meta />
                 <Links />
             </head>
