@@ -15,7 +15,8 @@ npm init remix -- --template markmals/lo-fi-stack
     -   [x] Support for [`theme()`, `screen()`, `@apply`, and `@layer` functions and directives](https://tailwindcss.com/docs/functions-and-directives)
 -   [x] Style processing with [PostCSS](https://postcss.org/)
     -   [x] Default support for [build-time imports](https://github.com/postcss/postcss-import), [nesting](https://tailwindcss.com/docs/using-with-preprocessors#nesting), and [autoprefixer](https://github.com/postcss/autoprefixer)
--   [ ] Optionally add UI libraries, such as [Headless UI](https://headlessui.com/), [TanStack Table](https://tanstack.com/table/v8/docs/adapters/react-table), and [Framer Motion](https://www.framer.com/motion/)
+-   [ ] [Initialization](https://remix.run/docs/en/v1/pages/stacks#customize-initialization) options
+    -   [ ] Optionally add UI libraries, such as [Headless UI](https://headlessui.com/), [TanStack Table](https://tanstack.com/table/v8/docs/adapters/react-table), and [Framer Motion](https://www.framer.com/motion/)
 -   [ ] Store and sync app data with [Cloud Firestore](https://firebase.google.com/products/firestore)
 -   [ ] Simple sign-in and account management with [Firebase Authentication](https://firebase.google.com/products/auth)
 -   [x] Deploy to [Fly.io](https://fly.io/)
@@ -23,6 +24,7 @@ npm init remix -- --template markmals/lo-fi-stack
 -   [x] Unit testing with [Vitest](https://vitest.dev) and [Testing Library](https://testing-library.com)
 -   [x] Code formatting with [Prettier](https://prettier.io)
 -   [x] Linting with [ESLint](https://eslint.org)
+-   [ ] Git hooks with [Husky](https://typicode.github.io/husky)
 -   [x] Static types with [TypeScript](https://typescriptlang.org)
 -   [x] [Flat routing convention](https://github.com/kiliman/remix-flat-routes)
 -   [x] [Type-safe routing](https://github.com/yesmeck/remix-routes)

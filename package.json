@@ -28,14 +28,14 @@
         "react-dom": "npm:@preact/compat"
     },
     "dependencies": {
-        "@remix-run/node": "^1.7.2",
-        "@remix-run/react": "^1.7.2",
-        "@remix-run/serve": "^1.7.2",
-        "preact": "^10.11.0",
-        "preact-render-to-string": "^5.2.4",
+        "@remix-run/node": "*",
+        "@remix-run/react": "*",
+        "@remix-run/serve": "*",
+        "preact": "*",
+        "preact-render-to-string": "*",
         "react": "npm:@preact/compat",
         "react-dom": "npm:@preact/compat",
-        "remix-routes": "^1.0.0"
+        "remix-routes": "*"
     },
     "devDependencies": {
         "@preact/preset-vite": "^2.4.0",
