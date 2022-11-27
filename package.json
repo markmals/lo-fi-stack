@@ -21,7 +21,8 @@
         "storybook:dev": "start-storybook -p 6006",
         "storybook:build": "build-storybook",
         "static:build": "wget -r -k -nH -i static-build-urls.txt -P docs; touch docs/.nojekyll",
-        "static:serve": "serve docs"
+        "static:serve": "serve docs",
+        "prepare": "husky install"
     },
     "resolutions": {
         "react": "npm:@preact/compat",
@@ -70,7 +71,8 @@
         "ts-node": "^10.9.1",
         "typescript": "^4.7.4",
         "vite-tsconfig-paths": "^3.6.0",
-        "vitest": "^0.25.3"
+        "vitest": "^0.25.3",
+        "husky": "^8.0.0"
     },
     "prettier": {
         "printWidth": 100,
