@@ -1,4 +1,4 @@
-// import { LinksFunction } from "@remix-run/node"
+// import type { LinksFunction } from "@remix-run/node"
 // import { Button, links as buttonLinks } from "~/components/button"
 
 // export const links: LinksFunction = () => [...buttonLinks()]
