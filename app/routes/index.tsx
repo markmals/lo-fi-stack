@@ -25,11 +25,11 @@ export default function Index() {
             alt: "Fly.io",
             href: "https://fly.io",
         },
-        // {
-        //     src: "firebase.svg",
-        //     alt: "Firebase",
-        //     href: "https://firebase.google.com/",
-        // },
+        {
+            src: "firebase.svg",
+            alt: "Firebase",
+            href: "https://firebase.google.com/",
+        },
         // {
         //     src: "headlessui.svg",
         //     alt: "Headless UI",
