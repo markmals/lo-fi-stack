@@ -9,6 +9,13 @@ export const meta: MetaFunction = () => ({
     charset: "utf-8",
     title: "Remix Lo-Fi Stack",
     viewport: "width=device-width,initial-scale=1",
+    "og:title": "Remix Lo-Fi Stack",
+    "og:description":
+        "The Remix Stack for deploying to Fly.io with Preact, Tailwind, PostCSS, Firebase, testing, linting, formatting, and more",
+    "og:image":
+        "https://user-images.githubusercontent.com/39869007/204083687-88e86af6-c69b-4465-9212-4b6d8b634872.png",
+    "og:type": "website",
+    "og:url": "https://markmals.github.io/lo-fi-stack",
 })
 
 export default function App() {
