@@ -42,6 +42,41 @@ npm run dev
 
 This starts your app in development mode, rebuilding assets on file changes.
 
+## Firebase
+
+### Setup
+
+1. [Create a Firebase Project](https://console.firebase.google.com)
+2. Enable Auth (with email) and Firestore
+3. Add a Web App
+4. Get the [admin-sdk](https://firebase.google.com/docs/admin/setup#initialize-sdk) and [Web Client Config Object](https://support.google.com/firebase/answer/7015592#web)
+5. Save them to SERVICE_ACCOUNT and CLIENT_CONFIG in the `.env`-file
+
+### Auth
+
+#### `app/lib/firebase/auth.server.ts`
+
+`signIn` returns a Firebase session-cookie-string, when sign-in is successfull. Then Remix `cookieSessionStorage` is used to set, read and destroy it.
+
+`signUp` creates a user and calls sign-in to receive the session cookie.
+
+`requireAuth` uses `firebase-admin` to verify the session cookie. When this check fails, it throws a `redirect` to the login page. Use this method to protect loaders and actions. The returned `UserRecord` can be handy to request or manipulate data from the Firestore for this user.
+
+### Firestore
+
+#### `app/lib/firebase/db.server.ts`
+
+The default setup exports [Holocron](https://github.com/markmals/holocron-db) databases connected to Firestore collections.
+
+Requests to the Firestore are made using the `firebase-admin`-SDK. You need to check validity of your requests manually, since `firestore.rules` don't apply to admin requests.
+
+### Links
+
+-   [Holocron docs](https://github.com/markmals/holocron-db)
+-   [Firebase Session Cookies](https://firebase.google.com/docs/auth/admin/manage-cookies)
+-   [Remix `cookieSessionStorage`](https://remix.run/docs/en/v1/api/remix#createcookiesessionstorage)
+-   [Remix Firebase example project](https://github.com/remix-run/examples/tree/main/firebase)
+
 ## Testing
 
 ### Vitest

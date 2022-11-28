@@ -34,6 +34,7 @@
         "@remix-run/serve": "*",
         "firebase": "^9.14.0",
         "firebase-admin": "^11.3.0",
+        "holocron-db": "^0.1.2",
         "preact": "*",
         "preact-render-to-string": "*",
         "react": "npm:@preact/compat",
