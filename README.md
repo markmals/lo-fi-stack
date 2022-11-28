@@ -10,25 +10,23 @@ npm init remix -- --template markmals/lo-fi-stack
 
 ## What's in the stack
 
--   [x] [Preact](https://preactjs.com) UI runtime
--   [x] Atomic styling with [Tailwind CSS](https://tailwindcss.com/)
-    -   [x] Support for [`theme()`, `screen()`, `@apply`, and `@layer` functions and directives](https://tailwindcss.com/docs/functions-and-directives)
--   [x] Style processing with [PostCSS](https://postcss.org/)
-    -   [x] Default support for [build-time imports](https://github.com/postcss/postcss-import), [nesting](https://tailwindcss.com/docs/using-with-preprocessors#nesting), and [autoprefixer](https://github.com/postcss/autoprefixer)
--   [ ] [Initialization](https://remix.run/docs/en/v1/pages/stacks#customize-initialization) options
-    -   [ ] Optionally add UI libraries, such as [Headless UI](https://headlessui.com/), [TanStack Table](https://tanstack.com/table/v8/docs/adapters/react-table), and [Framer Motion](https://www.framer.com/motion/)
--   [ ] Store and sync app data with [Cloud Firestore](https://firebase.google.com/products/firestore)
--   [ ] Simple sign-in and account management with [Firebase Authentication](https://firebase.google.com/products/auth)
--   [x] Deploy to [Fly.io](https://fly.io/)
--   [x] Component stories with [Storybook](https://storybook.js.org)
--   [x] Unit testing with [Vitest](https://vitest.dev) and [Testing Library](https://testing-library.com)
--   [x] Code formatting with [Prettier](https://prettier.io)
--   [x] Linting with [ESLint](https://eslint.org)
--   [x] Git hooks with [Husky](https://typicode.github.io/husky)
--   [x] Static types with [TypeScript](https://typescriptlang.org)
--   [x] [Flat routing convention](https://github.com/kiliman/remix-flat-routes)
--   [x] [Type-safe routing](https://github.com/yesmeck/remix-routes)
--   [x] Reccomended [Visual Studio Code extensions](https://code.visualstudio.com/docs/editor/extension-marketplace#_workspace-recommended-extensions)
+-   [Preact](https://preactjs.com) UI runtime
+-   Atomic styling with [Tailwind CSS](https://tailwindcss.com/)
+    -   Support for [`theme()`, `screen()`, `@apply`, and `@layer` functions and directives](https://tailwindcss.com/docs/functions-and-directives)
+-   Style processing with [PostCSS](https://postcss.org/)
+    -   Default support for [build-time imports](https://github.com/postcss/postcss-import), [nesting](https://tailwindcss.com/docs/using-with-preprocessors#nesting), and [autoprefixer](https://github.com/postcss/autoprefixer)
+-   Store and sync app data with [Cloud Firestore](https://firebase.google.com/products/firestore) using [Holocron](https://github.com/markmals/holocron-db)
+-   Simple sign-in and account management with [Firebase Authentication](https://firebase.google.com/products/auth)
+-   Deploy to [Fly.io](https://fly.io/)
+-   Component stories with [Storybook](https://storybook.js.org)
+-   Unit testing with [Vitest](https://vitest.dev) and [Testing Library](https://testing-library.com)
+-   Code formatting with [Prettier](https://prettier.io)
+-   Linting with [ESLint](https://eslint.org)
+-   Git hooks with [Husky](https://typicode.github.io/husky)
+-   Static types with [TypeScript](https://typescriptlang.org)
+-   [Flat routing convention](https://github.com/kiliman/remix-flat-routes)
+-   [Type-safe routing](https://github.com/yesmeck/remix-routes)
+-   Reccomended [Visual Studio Code extensions](https://code.visualstudio.com/docs/editor/extension-marketplace#_workspace-recommended-extensions)
 
 Not a fan of bits of the stack? Fork it, change it, and use `npm init remix -- --template your/repo`! Make it your own.
 
