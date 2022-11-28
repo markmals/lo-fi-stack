@@ -1,0 +1,1 @@
+import{f as n}from"/build/_shared/chunk-255BUPM7.js";import{i as o,l as d}from"/build/_shared/chunk-EKXZBA5C.js";r();function r(){let e=document.documentElement,t=m=>document.replaceChild(m,e);o(d(n,{}),{childNodes:[e],firstChild:e,insertBefore:t,appendChild:t})}
