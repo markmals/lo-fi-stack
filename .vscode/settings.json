@@ -21,11 +21,6 @@
 
     "typescript.updateImportsOnFileMove.enabled": "always",
     "typescript.preferences.importModuleSpecifierEnding": "auto",
-    // "typescript.inlayHints.parameterNames.enabled": "all",
-    // "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
-    // "typescript.inlayHints.parameterTypes.enabled": true,
-    // "typescript.inlayHints.propertyDeclarationTypes.enabled":true,
-    // "typescript.inlayHints.variableTypes.enabled":true,
 
     "files.exclude": {
         "**/.git": true,
