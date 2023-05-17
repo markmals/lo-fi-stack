@@ -1,0 +1,28 @@
+# Application Holotypes
+
+import { StubAlert } from "~/components/StubAlert"
+
+<StubAlert />
+
+In 2019, Jason Miller created a blog post entitled ["Application Holotypes: A Guide to Architecture Decisions"](https://jasonformat.com/application-holotypes/), wherein he describes several "Holotypes," or broad categories of web apps, that fit under a shared architecture.
+
+While I largely agree with what he laid out, I think there are a few missing holotypes or categories I might breakdown a bit more granularly. Additionally, I think there's room to be more specific about the "Ideal Implementation" and "Ideal Delivery" sections for each holotype, especially when you're focused on architectures for a single framework and not trying to describe architecture for the web landscape as a whole.
+
+Below, I've enumerated the web app holotypes, as I see them, and some specific notes about the ideal implementation and delivery of them when using the Lo-Fi Stack to build a holotype of that kind.
+
+## Architectures
+
+```ts
+// TODO: Explination of different app architectures possible using Remix
+```
+
+## Meet the Holotypes
+
+### Information Manager
+
+-   **Holotype**: Gmail
+-   **Examples**: Google Calendar, Outlook.com, Fastmail
+-   **Characteristics**: thick-client, infinite lists, embedded content, rich text editing, sanitization, MDI, storage, offline & sync, notifications
+-   **Constraints**: extended session length, sensitive & largely uncacheable data, high security risk, often offline
+-   **Ideal Implementation**: `???`
+-   **Ideal Delivery**: PWA in standalone display mode.

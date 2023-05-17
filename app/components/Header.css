@@ -1,0 +1,16 @@
+/* .header a {
+    transition: color 100ms ease-out;
+}
+
+.header a:hover::before {
+    background: linear-gradient(247.23deg, #54e1d8e7 0%, #1c6ab8a4 100%);
+    mask-image: radial-gradient(rgba(0, 0, 0, 0.5), transparent 65%);
+    -webkit-mask-image: radial-gradient(rgba(0, 0, 0, 0.5), transparent 65%);
+    z-index: -10;
+    position: absolute;
+    content: "";
+    height: 120%;
+    width: 26%;
+    left: -1%;
+    top: -8%;
+} */

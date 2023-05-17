@@ -1,0 +1,14 @@
+import { StubAlert } from "~/components/StubAlert"
+
+# FAQs
+
+<StubAlert />
+
+## Why React instead of Preact?
+
+In v1 of Lo-Fi Stack, we used Preact as the UI runtime, [swapping out React using Preact's `preact/compat` package](https://preactjs.com/guide/v10/switching-to-preact). In v2, we have reverted back to using React as the UI runtime. There are a couple of reasons for this:
+
+1. The Remix APIs are officially supported for and created with React in mind, which can make using them from Preact — even when using `preact/compat` — awkward, especially with TypeScript.
+2. Remix's [upcoming HMR features](https://remix.run/docs/en/main/pages/v2#dev-server) work specifically with [React Fast Refresh](https://www.npmjs.com/package/react-refresh) and do not support [Prefresh](https://github.com/preactjs/prefresh). Even though the Lo-Fi Stack doesn't currently utilize Remix's `unstable_dev` server, we want to preserve compatibility with it, for when it officially launches in Remix v2.
+
+Going forward, we will continue to use React as the UI runtime, until the Remix team [offically supports Preact](https://github.com/remix-run/remix/discussions/4562).
