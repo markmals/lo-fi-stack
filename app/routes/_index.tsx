@@ -1,3 +1,5 @@
+import { Link } from "@remix-run/react"
+
 const technologies = [
     {
         src: "react.svg",
@@ -97,19 +99,19 @@ export default function Index() {
                         </div>
                         <div className="relative px-4 pb-8 pt-16 sm:px-6 sm:pb-14 sm:pt-24 lg:px-8 lg:pb-20 lg:pt-32">
                             <h1 className="text-center text-6xl font-extrabold tracking-tight sm:text-8xl lg:text-9xl">
-                                <span className="block uppercase text-teal-500 drop-shadow-md">
+                                <span className="block font-montserrat uppercase text-teal-500 drop-shadow-md">
                                     Lo-Fi Stack
                                 </span>
                             </h1>
                             <p className="mx-auto mt-6 max-w-lg text-center text-xl text-white sm:max-w-3xl">
-                                Check the{" "}
-                                <a
+                                Check out the{" "}
+                                <Link
                                     className="text-teal-500 shadow-md hover:underline"
-                                    href="https://github.com/markmals/lo-fi-stack/blob/main/README.md"
+                                    to="/docs/intro/getting-started"
                                 >
-                                    README.md
-                                </a>{" "}
-                                file for instructions on how to get this project deployed.
+                                    documentation
+                                </Link>{" "}
+                                for instructions on how to get started.
                             </p>
                             <a href="https://remix.run">
                                 <img

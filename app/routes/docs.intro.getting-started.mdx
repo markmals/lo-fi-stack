@@ -1,22 +1,37 @@
 # Getting Started
 
-{/* <div class="mb-6">![Hero image](/orbital-hero.jpg)</div> */}
+<div className="relative mb-8 h-60 sm:h-72 lg:h-80">
+    <div className="absolute inset-0">
+        <img
+            className="h-full w-full rounded-2xl object-cover object-center shadow-xl"
+            src="https://i.kym-cdn.com/photos/images/original/001/760/307/555.jpg"
+            alt="LoFi Girl"
+        />
+        <div className="absolute inset-0 rounded-2xl bg-[color:rgba(20,184,166,0.65)] mix-blend-multiply" />
+    </div>
+</div>
 
 import { StubAlert } from "~/components/StubAlert"
 
 <StubAlert />
 
-The Lo-Fi Stack is a fully-featured toolkit for creating web apps with [Remix](https://remix.run).
-
-{/* It includes a router, server-side rendering, prerendering, islands, data loading, data mutations, in-order-streaming, out-of-order-streaming, real-time events, Markdown & MDX, accessible unstyled components, an atomic style engine, a design tokens manager, form validation, animation primitives, and more. */}
+The Lo-Fi Stack is the easiest way to get a new web app or website with good developer experience & (more importantly) good user experience up and running quickly. Taking inspiration from [Ruby on Rails](https://rubyonrails.org/doctrine), Lo-Fi Stack is strongly opinionated, with conventions and solutions for the most common problems webs app face, designed to relieve you — the developer — from needing to make unnecessary choices.
 
 ## Highlights
 
--   Modern styling with Tailwind CSS and PostCSS
--   Serverless & Edge routes on Vercel
--   Prisma ORM with easy schema authoring, tight TypeScript integration, and built-in migrations
--   Integrated data storage with Vercel Storage (KV, Postgres, Blob)
--   Component stories via Storybook
--   Pre-configured Prettier, ESLint, TypeScript, and Vitest setups
+-   [React](https://react.dev) UI runtime and [Remix](https://remix.run) meta-framework
+-   Atomic styling with [Tailwind CSS](https://tailwindcss.com/)
+    -   Support for [`theme()`, `screen()`, `@apply`, and `@layer` functions and directives](https://tailwindcss.com/docs/functions-and-directives)
+-   Style processing with [PostCSS](https://postcss.org/)
+    -   Default support for [build-time imports](https://github.com/postcss/postcss-import), [nesting](https://tailwindcss.com/docs/using-with-preprocessors#nesting), and [autoprefixer](https://github.com/postcss/autoprefixer)
+-   [Serverless](https://vercel.com/docs/concepts/functions/serverless-functions) & [Edge](https://vercel.com/features/edge-functions) routes on Vercel
+-   [Prisma](https://www.prisma.io/) ORM with easy schema authoring, tight TypeScript integration, and built-in migrations
+-   Integrated data storage with [Vercel Storage](https://vercel.com/docs/storage) ([KV](https://vercel.com/docs/storage/vercel-kv), [Postgres](https://vercel.com/docs/storage/vercel-postgres), [Blob](https://vercel.com/docs/storage/vercel-blob))
+-   Component stories via [Storybook](https://storybook.js.org/)
+-   Package management with [npm](https://www.npmjs.com)
+-   Unit testing with [Vitest](https://vitest.dev) and [Testing Library](https://testing-library.com)
+-   Code formatting with [Prettier](https://prettier.io)
+-   Linting with [ESLint](https://eslint.org)
+-   Static types with [TypeScript](https://typescriptlang.org)
 
 ## Attribution

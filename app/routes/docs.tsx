@@ -1,12 +1,18 @@
-import type { LinksFunction, V2_MetaFunction } from "@remix-run/node"
+import type { V2_MetaFunction } from "@remix-run/node"
 import { Outlet } from "@remix-run/react"
-import { Header, headerLinks } from "~/components/Header"
+import { Header } from "~/components/Header"
 import { Sidebar } from "~/components/Sidebar"
 import { TableOfContents } from "~/components/TableOfContents"
 
-export const links: LinksFunction = () => [...headerLinks()]
+// export const links: LinksFunction = () => [...headerLinks()]
 
-export const meta: V2_MetaFunction = () => [{ title: "Lo-Fi Stack | Docs" }]
+export const meta: V2_MetaFunction = ({ matches }) => {
+    const parentMeta = matches
+        .flatMap(match => (match as any).meta ?? [])
+        .filter(meta => !("title" in meta))
+
+    return [...parentMeta, { title: "Lo-Fi Stack | Docs" }]
+}
 
 export default function Docs() {
     return (

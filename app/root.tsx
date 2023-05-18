@@ -4,6 +4,7 @@ import tailwind from "./styles/styles.css"
 
 export const links: LinksFunction = () => [
     { rel: "stylesheet", href: tailwind },
+    { rel: "icon", type: "image/x-png", href: "/lofi-logo@2x.png" },
     { rel: "preconnect", href: "https://fonts.googleapis.com" },
     { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
     {
@@ -19,7 +20,7 @@ export const links: LinksFunction = () => [
 export const meta: V2_MetaFunction = () => [
     { charSet: "utf-8" },
     { title: "Lo-Fi Stack" },
-    { name: "viewport", content: "width=device-width; initial-scale=1; maximum-scale=1" },
+    { name: "viewport", content: "width=device-width" },
     { property: "og:title", content: "Lo-Fi Stack" },
     {
         property: "og:description",
