@@ -10,5 +10,6 @@ In v1 of Lo-Fi Stack, we used Preact as the UI runtime, [swapping out React usin
 
 1. The Remix APIs are officially supported for and created with React in mind, which can make using them from Preact — even when using `preact/compat` — awkward, especially with TypeScript.
 2. Remix's [upcoming HMR features](https://remix.run/docs/en/main/pages/v2#dev-server) work specifically with [React Fast Refresh](https://www.npmjs.com/package/react-refresh) and do not support [Prefresh](https://github.com/preactjs/prefresh). Even though the Lo-Fi Stack doesn't currently utilize Remix's `unstable_dev` server, we want to preserve compatibility with it, for when it officially launches in Remix v2.
+3. Eventually, Remix will support desirable features, such as [React Server Components](https://vercel.com/blog/understanding-react-server-components) for partial hydration, which won't be compatible with Preact at all (at least, [not for a long time](https://github.com/jacob-ebey/preact-rsc)).
 
-Going forward, we will continue to use React as the UI runtime, until the Remix team [offically supports Preact](https://github.com/remix-run/remix/discussions/4562).
+Going forward, we will continue to use and recommend React as the UI runtime, until the Remix team [offically supports Preact](https://github.com/remix-run/remix/discussions/4562).

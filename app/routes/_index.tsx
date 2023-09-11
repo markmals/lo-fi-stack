@@ -131,7 +131,7 @@ export default function Index() {
                                 href={img.href}
                                 target="_blank"
                                 className={`flex h-16 w-32 justify-center p-1 grayscale transition hover:grayscale-0 focus:grayscale-0 ${
-                                    img.src === "vercel.svg" && "opacity-60 hover:opacity-100"
+                                    img.src === "vercel.svg" && "opacity-40 hover:opacity-100"
                                 }`}
                                 rel="noreferrer"
                             >

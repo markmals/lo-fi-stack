@@ -69,7 +69,7 @@ const server = createServer(async (request, response) => {
     }
 })
 
-const port = Number(process.env.PORT) || 3000
+const port = Number(process.env.PORT) || 4000
 
 server.listen(port, () => {
     console.log(`✅ app ready: http://localhost:${port}`)
