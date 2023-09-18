@@ -2,7 +2,7 @@ import forms from "@tailwindcss/forms"
 import type { Config } from "tailwindcss"
 
 export default {
-    content: ["./app/**/*.{ts,tsx,md,mdx}"],
+    content: ["./app/**/*.{ts,tsx,md,mdx}", "./components/**/*.{ts,tsx,md,mdx}"],
     theme: {
         extend: {
             fontFamily: {
